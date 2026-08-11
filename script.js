@@ -7,7 +7,7 @@ function getFormvalue() {
 		event.preventDefault();
 
 		alert(
-			 firstName.value + " " + lastName.value
+            form.elements["fname"].value + " " +form.elements["lname"].value;
 		)
     }
 
